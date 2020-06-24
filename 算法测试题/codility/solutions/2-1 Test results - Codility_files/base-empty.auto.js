@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{1123:function(e,t,n){"use strict";n.r(t);n(630)},630:function(e,t,n){"use strict";var s=n(126),o=n.n(s),a=/^(GET|HEAD|OPTIONS|TRACE)$/;o.a.get("csrftoken")&&$.ajaxSetup({crossDomain:!1,beforeSend:function(e,t){var n;n=t.type,a.test(n)||e.setRequestHeader("X-CSRFToken",o.a.get("csrftoken"))}})}},[[1123,0,1]]]);
